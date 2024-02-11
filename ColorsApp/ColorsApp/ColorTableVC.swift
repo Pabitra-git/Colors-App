@@ -32,7 +32,7 @@ class ColorTableVC: UIViewController,UITableViewDelegate,UITableViewDataSource {
         let destVC = segue.destination as! ColorDetailsVC
         destVC.color = sender as? UIColor
     }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return colors.count
     }
